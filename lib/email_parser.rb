@@ -5,7 +5,7 @@ class EmailParser
 
 def initialize(email_address)
     @email_address = email_address
-  end
+end
     
     def parse
       @all = []
@@ -13,7 +13,7 @@ def initialize(email_address)
         @all << @email_address.split(/, \s*/)
         @all.flatten.uniq
     end
-  end
+  
 
 end  
   
@@ -32,4 +32,3 @@ end
 #     end.flatten.uniq
 #  end
 
-end
