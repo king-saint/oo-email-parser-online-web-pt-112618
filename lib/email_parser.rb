@@ -13,7 +13,7 @@ def initialize(email_address)
         @all << @email_address.split(/, \s*/)
         @all.flatten.uniq
     end
-  
+  end
 
 end  
   
