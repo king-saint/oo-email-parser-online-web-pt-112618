@@ -11,12 +11,9 @@ def initialize(email_address)
       @all = []
       
         @all << @email_address.split(", ")
-      elsif @email_address.include?(" ")
-        @all << @email_address.split(" ")
-      else
-        @all << @email_address
-     end.flatten.uniq
-  end
+      
+    end.flatten.uniq
+  
 
 end  
   
