@@ -10,7 +10,7 @@ def initialize(email_address)
     def parse
       @all = []
       
-        @all << @email_address.split(", ")
+        @all << @email_address.split(/, \s*/)
       
     end.flatten.uniq
   
