@@ -11,8 +11,8 @@ def initialize(email_address)
       @all = []
       
         @all << @email_address.split(/, \s*/)
-      
-    end.flatten.uniq
+        @all.flatten.uniq
+    end
   
 
 end  
