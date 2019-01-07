@@ -10,7 +10,7 @@ end
     def parse
       @all = []
       
-        @all << @email_address.split(/ , \s*/)
+        @all << @email_address.split(/, \s*/)
         @all.flatten.uniq
     end
   
